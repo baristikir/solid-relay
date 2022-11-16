@@ -1,0 +1,21 @@
+type Book {
+	title: String!
+	author: String!
+}
+
+type User {
+	id: ID!
+	firstName: String!
+	lastName: String!
+	randomNumber: Float!
+}
+
+type Query {
+	echo(input: String!): String!
+	viewer: User!
+	books: [Book!]!
+}
+
+type Mutation {
+	doSomethingToUser: User!
+}

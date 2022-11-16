@@ -1,0 +1,25 @@
+{
+	"name": "solid-relay",
+	"version": "0.0.1",
+	"description": "React-Relay implementation for SolidJS.",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "tsc",
+		"prepublishOnly": "pnpm run build",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"solid-js",
+		"react-relay"
+	],
+	"author": "Baris Tikir",
+	"license": "MIT",
+	"dependencies": {
+		"graphql": "^16.6.0",
+		"relay-runtime": "^14.1.0",
+		"solid-js": "^1.6.2"
+	},
+	"devDependencies": {
+		"@types/relay-runtime": "^14.1.4"
+	}
+}
